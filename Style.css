@@ -1,12 +1,12 @@
 
-html {
-
+html
+{
     overflow-y: scroll;
     height: 100%;
 }
 
-body {
-
+body
+{
     background-color: transparent;
     margin: 0;
     padding: 0;
@@ -17,22 +17,22 @@ body {
 
 #cfhome {float:left;}
 
-#nav_wrapper {
-
+#nav_wrapper 
+{
     background-color: rgba(255,255,255,0.95);
     padding: 1.2vw 0 .5vw 0;
     border-bottom: 2px inset #bbbbbb;
 }
 
-#header_wrapper, #nav_wrapper {
-
+#header_wrapper, #nav_wrapper 
+{
     width: 100%;
     position: fixed;
     top: 0;
 }
 
-#rows {
-
+#rows 
+{
     width: 100%;
     min-height: 100%;
     height: auto !important;
@@ -43,8 +43,8 @@ body {
 
 #homepic img {position: absolute;}
 
-ul {
-    
+ul
+{    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -52,8 +52,8 @@ ul {
     display: inline-block;
 } 
 
-li {
-
+li 
+{
     float: left;
     cursor: pointer;
     cursor: hand;
@@ -63,14 +63,14 @@ li {
 
 #people, #places, #things {border-right: 1px inset #bbbbbb}
 
-li, pre, #tilleyhome, #tilley {
-
+li, pre, #tilleyhome, #tilley 
+{
     font-family: 'Lato', sans-serif;
     color: #000000;
 }
 
-li {
-  
+li 
+{ 
     display: block;
     font-weight: 100;
     text-align: center;
@@ -83,8 +83,8 @@ a:hover, a:active {color: #bbbbbb;}
 
 * {box-sizing: border-box;}
 
-[id^="col"] {
-
+[id^="col"] 
+{
     float: left;
     border: none;
 }
@@ -95,13 +95,14 @@ a:hover, a:active {color: #bbbbbb;}
 
 pre {font-weight: 400;}
 
-#tilleyhome {
-
+#tilleyhome 
+{
     font-weight: 100;
     position: absolute;
 }
 
-#clobox img {
+#clobox img 
+{
     width:100%;
     height: auto;
 }
@@ -111,22 +112,22 @@ pre {font-weight: 400;}
 
 
 
-@media only screen and (min-device-width: 769px) {
-    
+@media only screen and (min-device-width: 769px) 
+{    
     #header_wrapper {height: 5vw;}
     
     #rows {margin-top: 4.6vw;}
     
-    #homepic img {
-    
+    #homepic img
+    {
         width: 70vw;
         height: auto;
         top: 4.8vw;
         left: 1.45vw;
     }
     
-    li {
-    
+    li
+    { 
         font-size: 1.6vw;
         padding-left: 1.45vw;
         padding-right: 1.45vw;
@@ -140,25 +141,25 @@ pre {font-weight: 400;}
     
     [id^="col"] {padding: .2vw 0vw .2vw .2vw;}
     
-    #clobox {
-    
+    #clobox
+    {
         width: 60vw;
         margin: 4.9vw 1vw 1vw 1.45vw;
     } 
     
     #tilley {font-size: .8vw;}
     
-    #clobio {
-    
+    #clobio 
+    {
         font-size: 1.2vw;
         width:29vw;
         margin: 29vw 1vw 1vw 1vw;
     }
 
-    #tilleyhome {
-
-            top: 49vw;
-            right: 2vw;
+    #tilleyhome 
+    {
+        top: 49vw;
+        right: 2vw;
         font-size: 1vw;
     }
 }
@@ -172,8 +173,8 @@ pre {font-weight: 400;}
 
 
 
-@media only screen and (max-device-width: 768px) {
-    
+@media only screen and (max-device-width: 768px) 
+{
     #nav_wrapper {border-bottom: 1px inset #bbbbbb;}
     
     #cfhome {padding-left: 1vw;}
@@ -182,8 +183,8 @@ pre {font-weight: 400;}
     
     #rows {margin-top: 8vw;}
     
-    [id^="pic"] {
-
+    [id^="pic"] 
+    {
         -webkit-user-select: none;
         -webkit-touch-callout: none;
         pointer-events: none;
@@ -192,14 +193,15 @@ pre {font-weight: 400;}
 
     }
     
-    #homepic img {
-    
+    #homepic img 
+    {
         width: 100vw;
         height: auto;
         top: 30vw;
     }
     
-    li {
+    li 
+    {
     
         font-size: 2.95vw;
         padding-left: 1.45vw;
@@ -214,32 +216,32 @@ pre {font-weight: 400;}
     
     [id^="col"] {padding: 0;}
     
-    #clobox {
-    
+    #clobox 
+    {
         width:100vw;
         margin: 8vw 0vw 0vw 0vw;
     } 
     
     #tilley {font-size: 2vw;}
     
-    #clobio {
-    
+    #clobio 
+    {
         font-size: 3.8vw;
         width:98vw;
         margin: 1vw 1vw 1vw 1vw;
     }
 
-    #tilleyhome {
-
-            top: 99vw;
-            right: 5vw;
+    #tilleyhome 
+    {
+        top: 99vw;
+        right: 5vw;
         font-size: 1.2vw;
     }
 
-    @media only screen and (orientation: landscape) {
-
-        li {
-    
+    @media only screen and (orientation: landscape) 
+    {
+        li 
+        {
             font-size: 2vw;
             padding-left: 1vw;
             padding-right: 1vw;
